@@ -1,7 +1,7 @@
 BEGIN { unshift( @INC, '../lib' ) }
 BEGIN { unshift( @INC, './lib' ) }
 
-use Bio::Test;
+use Bio::AssemblyImprovement;
 use Moose;
 
 print "hello\n";

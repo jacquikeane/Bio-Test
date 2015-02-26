@@ -8,7 +8,7 @@ BEGIN { unshift( @INC, './lib' ) }
 
 BEGIN {
     use Test::Most;
-    use_ok('Bio::Test');
+    use_ok('Bio::AssemblyImprovement');
 }
 
 done_testing();
